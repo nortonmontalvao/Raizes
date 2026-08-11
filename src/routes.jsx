@@ -10,7 +10,7 @@ import StatusPedido from "./pages/StatusPedido/StatusPedido";
 
 function AppRoutes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Raizes">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cardapio" element={<Cardapio />} />
