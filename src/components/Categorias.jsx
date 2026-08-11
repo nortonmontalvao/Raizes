@@ -19,12 +19,7 @@ function Categorias() {
   ];
 
   return (
-    <section className="categorias">
-      <div className="section-title">
-        <p className="eyebrow">Requisitos do protótipo</p>
-        <h2>Fluxo preparado para avaliação</h2>
-      </div>
-
+    <section>
       <div className="cards">
         {categorias.map((categoria) => (
           <article className="card" key={categoria.titulo}>
